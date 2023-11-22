@@ -1,6 +1,6 @@
-# Smart Home IE331 🏠🔌
+#   Tech-Touches 🏠🔌
 
-Welcome to Smart Home IE331! This e-commerce website is dedicated to providing a wide range of smart home products to enhance your living space. Whether you're looking for smart lights, security systems, or home automation devices, you'll find everything you need here.
+Welcome to Tech-Touches! This e-commerce website is dedicated to providing a wide range of smart home products to enhance your living space. Whether you're looking for smart lights, security systems, or home automation devices, you'll find everything you need here.
 
 ## Table of Contents
 
