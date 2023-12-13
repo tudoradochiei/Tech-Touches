@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite</title>
+    <link rel="stylesheet" href="style-favourite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>Favorite</h1>
+    </div>
+
+    <div class="content center-image">
+        <img src="Photos/sorry.png" alt="Imagine produs">
+        <div class="center-image-text">
+            <p id="login-message"><strong>You must log in to see your favorite products </strong></p>
+            <button type="button" onclick="navigateTo('log-in.html')">Log In</button>
+        </div>
+    </div>
+
+    <div class="menu-bar">
+        <div onclick="navigateTo('homepage.html')"><i class="fas fa-home"></i> Home</div>
+        <div onclick="navigateTo('products.html')"><i class="fas fa-search"></i> Products</div>
+        <div onclick="navigateTo('cart.html')"><i class="fas fa-shopping-cart"></i> Cart</div>
+        <div onclick="navigateTo('favorite.html')"><i class="fas fa-heart"></i> Favorite</div>
+        <div onclick="navigateTo('account.html')"><i class="fas fa-user"></i> Account</div>
+    </div>
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
