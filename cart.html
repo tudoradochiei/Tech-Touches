@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Touches-Cart</title>
+    <link rel="stylesheet" href="style-cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <h1>Your cart</h1>
+    </div>
+</header>
+<section>
+    <div class="container">
+        <img src="Photos/smart-home-background.jpg" alt="Smart Home Background">
+        <img src="Photos/empty-cart-icon.png" alt="Empty Cart Icon">
+        <p>Your cart is empty</p>
+        <button type="button">Go to shopping</button>
+    </div>
+</section>
+
+  
+
+    <div class="menu-bar">
+        <div onclick="navigateTo('homepage.html')"><i class="fas fa-home"></i> Home</div>
+        <div onclick="navigateTo('products.html')"><i class="fas fa-search"></i> Products</div>
+        <div onclick="navigateTo('cart.html')"><i class="fas fa-shopping-cart"></i> Cart</div>
+        <div onclick="navigateTo('favorite.html')"><i class="fas fa-heart"></i> Favorite</div>
+        <div onclick="navigateTo('account.html')"><i class="fas fa-user"></i> Account</div>
+    </div>
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+</html>
